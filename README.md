@@ -1,2 +1,2 @@
 # HTML5
-Curso de Desarrollo Web usando estándar HTML5
+Course of web developing using HTML5
