@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.contact-form{
+    font-size: 25px;
+}
+.contact-form__h2{
+    font-size: 2em;
+    font-family: Georgia;
+    /*line height is used to assing the space that the text will use, it doesn't modify his size*/
+    line-height: 2;
+    font-weight: normal;
+}
