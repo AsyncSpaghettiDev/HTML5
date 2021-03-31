@@ -1,0 +1,29 @@
+/*Universal selector*/
+*{
+    color: darkblue;
+}
+/*Type Selector, the name of the label*/
+h1{
+    color: black;
+}
+/*Class Selector, for class selector you must add a dot before the class name*/
+.anothertext{
+    color:blueviolet;
+}
+/*ID Selector, for id selector you must add a number sign (hashtag) before the id name*/
+/*apply CSS by id is a bad practice because id must be only for one element, or use for modify just one element*/
+#textbox{
+    color:slategray;
+}
+/*attribute Selector, you must put the attribute inside square brackets[]*/
+[modified="true"]{
+    color:springgreen;
+}
+/*descendant Selector, this modifies the children of a containe or any children, can be combinated class + attribute, etc...*/
+article p{
+    color:teal;
+}
+/*pseudo-class Selector, a pseudo class is an event*/
+.anothertext:hover{
+    color:thistle;
+}
