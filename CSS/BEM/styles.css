@@ -1,0 +1,6 @@
+.form__input{
+    color : blue;
+}
+.form__input :first-child{
+    color : darkcyan;
+}
