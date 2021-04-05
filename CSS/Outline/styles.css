@@ -1,0 +1,32 @@
+*{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+/*We can create selectors one by one, or agrupate all in one; example
+.box{
+    // some code here
+}
+.box2{
+    // some more code here
+}
+or
+.box , .box2{
+    // some code here too
+}
+*/
+/*As the name says, it gives like a border to a shape or box, but it doesnt affect the size,
+in this case the top outline is outside the view parte of the screen*/
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: #ff0;
+    margin: auto;
+    border: 10px solid #00f;
+    outline: 10px solid #0ff;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: #f00;    
+    margin: auto;
+}
