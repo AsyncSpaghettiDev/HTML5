@@ -1,0 +1,19 @@
+*{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+.container{
+    float: left;
+}
+.container div{
+    float: right;
+    padding: 20px;
+}
+.primary{
+    width: 75%;
+    background: #f00;
+}
+.secondary{
+    width: 25%;
+    background: #ff0;
+}
