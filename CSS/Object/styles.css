@@ -1,0 +1,16 @@
+* {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}
+.box{
+    margin: 25px;
+    width: 800px;
+    height: 250px;
+    border: 4px #000 solid;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
