@@ -1,0 +1,78 @@
+* {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}
+.translate{
+    height: 250px;
+    background: #777;
+    margin: 25px;
+}
+input{
+    background: #777;
+    transition: background .5s;
+}
+form{
+    padding: 15px;
+    margin: auto;
+}
+b{
+    padding: 15px;
+}
+.text {
+    padding: 20px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+}
+.boxi{
+    background: #b11;
+    margin: 25px auto;
+    width: 200px;
+    height: 200px;
+    transition: all 1s;
+}
+/*Pseudo-Elements*/
+*::selection{
+    background: #00a;
+    color: #fde;
+}
+.text::first-letter{
+    font-weight: bold;
+    font-size: 40px;
+}
+.text::first-line {
+    text-decoration: underline;
+}
+input::placeholder{
+    color : #00f;
+    text-align: center;
+}
+b::before{
+    content: "Im a sample ";
+}
+b::after{
+    content: " for learning";
+}
+/*Pseudo-Classes*/
+a:link{
+    color: #f00;
+}
+a:visited{
+    color: #000;
+}
+.boxi:active{
+    background: #5f5;
+    width: 800px;
+}
+input:focus{
+    background: #00a;
+}
+.translate p:lang(es){
+    background: brown;
+    padding: 30px;
+}.translate p:lang(en){
+    background: chocolate;
+    padding: 30px;
+}
