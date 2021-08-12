@@ -1,0 +1,35 @@
+* {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+.container{
+    padding: 20px 5px;
+    background: #b6f;
+}
+.caja{
+    background: #025;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    position: relative;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+@keyframes move{
+    0%{
+        left: 0;
+        background: #000;
+    }
+    50%{
+        background: red;
+    }
+    100%{
+        left: 80%;
+        background: green;
+    }
+}
