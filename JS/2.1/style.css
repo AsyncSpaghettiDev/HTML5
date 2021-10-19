@@ -1,0 +1,29 @@
+*{  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+}
+body{
+    background: #021C1E;
+}
+.event{
+    background: #2C7873;
+    padding: 15px;
+    margin: 20px 10px;
+}
+.flowEvent{
+    background: #004445;
+    padding: 15px;
+}
+button, input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+button{
+    background: #6fb98f;
+}
+input{    
+    background: #bfe9bf;
+    outline: none;
+}
